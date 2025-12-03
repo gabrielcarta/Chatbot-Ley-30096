@@ -1,0 +1,7 @@
+streamlit
+langchain==0.2.14
+langchain-community==0.2.12
+langchain-google-genai
+chromadb
+pypdf
+sentence-transformers

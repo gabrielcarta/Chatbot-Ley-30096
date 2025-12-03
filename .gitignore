@@ -1,0 +1,24 @@
+# --- Basura de Python (Compilados) ---
+__pycache__/
+*.pyc
+
+# --- Entornos Virtuales (PESADOS) ---
+venv/
+env/
+.venv/
+
+# --- Variables de Entorno y Secretos (SEGURIDAD) ---
+.env
+.streamlit/secrets.toml
+
+# --- Base de Datos Vectorial (PESADA y BINARIA) ---
+# Es mejor que la nube la cree de cero usando el PDF
+chroma_db/
+cerebro_legal/
+*.sqlite3
+
+# --- Archivos de Sistema y Editor ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
