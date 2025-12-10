@@ -11,9 +11,6 @@ env/
 .env
 .streamlit/secrets.toml
 
-# --- Base de Datos Vectorial (PESADA y BINARIA) ---
-# Es mejor que la nube la cree de cero usando el PDF
-chroma_db/
 cerebro_legal/
 *.sqlite3
 
@@ -22,3 +19,4 @@ cerebro_legal/
 .idea/
 .DS_Store
 Thumbs.db
+ver_modelos.py

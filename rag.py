@@ -44,7 +44,7 @@ def configurar_qa_chain():
     vectorstore = obtener_cerebro()
 
     llm = ChatGoogleGenerativeAI(
-        model="gemini-2.0-flash",
+        model="gemini-flash-latest",
         temperature=0.3,
         google_api_key=GOOGLE_API_KEY
     )
